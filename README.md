@@ -45,10 +45,41 @@ The investigation involved:
 1. A Linux-based environment or terminal access.  
 2. Basic knowledge of Bash scripting and command-line tools.  
 
+---
+
 ### Steps to Run
 1. Clone the repository:  
    ```bash
    git clone https://github.com/yourusername/lucky-duck-investigation.git
    cd lucky-duck-investigation
+
+---
+
+---
+
+## Scripts Developed
+- **roulette_dealer_finder_by_time.sh**: A Bash script designed to analyze dealer schedules at the Lucky Duck Casino and identify the dealer working at a specific time based on input date and time. The script accepts a date (in four digits) and a time (with AM/PM) as arguments and outputs the name of the dealer working at that time.
+
+---
+
+## Findings
+The investigation into the Lucky Duck Casino’s financial losses led to several key insights, backed by the analysis of various data sources:
+
+- **Roulette Losses**: The **Roulette_Losses.txt** file was central to identifying significant losses at specific times. By correlating these losses with the dealer schedules, we could narrow down the timeframe and the dealers involved.
+  
+- **Dealer Analysis**: The **Notes_Dealer_Analysis** and **Dealers_working_during_losses_txt** files provided crucial information on the dealer schedules, allowing us to cross-reference dealer availability with the times of the losses. This helped in identifying potential collusion between specific dealers and players.
+  
+- **Player Analysis**: The **Notes_Player_Analysis** file provided valuable information on the player behavior and win/loss patterns, further assisting in identifying suspicious activity and confirming the involvement of certain players in the fraudulent events.
+
+These files collectively led to the identification of the fraudulent activities and the dealer involved in the losses.
+
+---
+
+## Achievements
+- **Grade**: Received an outstanding grade of 105/100 for this project in the project, exceeding expectations and demonstrating strong analytical and technical skills.
+
+## Acknowledgments
+- Thanks to my instroctor Chris and teaching assistants ANdre and Nick for their support throughout the bootcamp.
+
 
 
